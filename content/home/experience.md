@@ -17,28 +17,42 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-[[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Research Staff"
+  company = "University of Siegen - Computer Vision Group"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  date_start = "2016-10-01"
+  date_end = ""
+  description = """Research into topics related to mathematical optimization in computer vision,
+  variational methods, nonconvex optimization theory, efficient learning of energy models, bilevel optimization."""
+
+  [[experience]]
+    title = "Visiting Researcher"
+    company = "University of Maryland, College Park"
+    company_url = ""
+    date_start = "2019-08-01"
+    date_end = "2019-12-20"
+    description = """Visited the group of Tom Goldstein at UMD for research collaborations regarding the theory of machine learning and machine learning security."""
+
+[[experience]]
+  title = "Research Assistant"
+  company = "University of Münster (WWU) - Cells-in-Motion (CiM) Cluster of Excellence"
+  company_url = ""
+  date_start = "2014-10-01"
+  date_end = "2016-06-01"
+  description = """Development of mathematical tools to track neural migration for the CiM flexible fund project FF-2014-06 - ”Analysis of cell-cell interactions during
+neuronal migration in the developing cortex by live cell imaging and cell shape quantification”"""
+
+
+[[experience]]
+  title = "Student Assistant"
+  company = "University of Münster (WWU) - Imaging Workgroup"
+  company_url = ""
+  date_start = "2014-02-01"
+  date_end = "2014-08-01"
+  description = """Programming for methods in Biomedical Imaging,
+  related to Grah, Joana Sarah et al., ”Mathematical imaging methods for mitosis analysis
+in live-cell phase contrast microscopy.” Methods 115 (2017): 91-99"""
 
 +++

@@ -1,0 +1,155 @@
+
+@article{chiang_witchcraft:_2019,
+  title = {{{WITCHcraft}}: {{Efficient PGD}} Attacks with Random Step Size},
+  shorttitle = {{{WITCHcraft}}},
+  author = {Chiang, Ping-Yeh and Geiping, Jonas and Goldblum, Micah and Goldstein, Tom and Ni, Renkun and Reich, Steven and Shafahi, Ali},
+  year = {2019},
+  month = nov,
+  abstract = {State-of-the-art adversarial attacks on neural networks use expensive iterative methods and numerous random restarts from different initial points. Iterative FGSM-based methods without restarts trade off performance for computational efficiency because they do not adequately explore the image space and are highly sensitive to the choice of step size. We propose a variant of Projected Gradient Descent (PGD) that uses a random step size to improve performance without resorting to expensive random restarts. Our method, Wide Iterative Stochastic crafting (WITCHcraft), achieves results superior to the classical PGD attack on the CIFAR-10 and MNIST data sets but without additional computational cost. This simple modification of PGD makes crafting attacks more economical, which is important in situations like adversarial training where attacks need to be crafted in real time.},
+  archivePrefix = {arXiv},
+  eprint = {1911.07989},
+  eprinttype = {arxiv},
+  journal = {ArXiv191107989 Cs Eess Stat},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Statistics - Machine Learning},
+  primaryClass = {cs, eess, stat}
+}
+
+@phdthesis{geiping_comparison_2014,
+  title = {Comparison of {{Topology}}-Preserving {{Segmentation Methods}} and {{Application}} to {{Mitotic Cell Tracking}}},
+  author = {Geiping, Jonas Alexander},
+  year = {2014},
+  month = sep,
+  address = {{Münster}},
+  school = {Westfälischen Wilhelms-Universität Münster},
+  type = {Bachelor {{Thesis}}}
+}
+
+@article{geiping_composite_2018,
+  title = {Composite {{Optimization}} by {{Nonconvex Majorization}}-{{Minimization}}},
+  author = {Geiping, Jonas and Moeller, Michael},
+  year = {2018},
+  month = jan,
+  pages = {2494--2528},
+  doi = {10.1137/18M1171989},
+  abstract = {The minimization of a nonconvex composite function can model a variety of imaging tasks. A popular class of algorithms for solving such problems are majorization-minimization techniques which iteratively approximate the composite nonconvex function by a majorizing function that is easy to minimize. Most techniques, e.g., gradient descent, utilize convex majorizers in order to guarantee that the majorizer is easy to minimize. In our work we consider a natural class of nonconvex majorizers for these functions, and show that these majorizers are still sufficient for a globally convergent optimization scheme. Numerical results illustrate that by applying this scheme, one can often obtain superior local optima compared to previous majorization-minimization methods, when the nonconvex majorizers are solved to global optimality. Finally, we illustrate the behavior of our algorithm for depth superresolution from raw time-of-flight data.},
+  journal = {SIAM J. Imaging Sci.},
+  keywords = {90C26; 90C06; 68U10; 32B20; 65K10; 47J06,Computer Science - Computer Vision and Pattern Recognition,Mathematics - Numerical Analysis,Mathematics - Optimization and Control}
+}
+
+@article{geiping_fast_nodate,
+  title = {Fast {{Convex Relaxations}} Using {{Graph Discretizations}}},
+  author = {Geiping, Jonas},
+  pages = {14},
+  abstract = {Matching and partitioning problems are fundamentals of computer vision applications with examples in multilabel segmentation, stereo estimation and optical-flow computation. These tasks can be posed as non-convex energy minimization problems and solved near-globally optimal by recent convex lifting approaches. Yet, applying these techniques comes with a significant computational effort, reducing their feasibility in practical applications. We discuss spatial discretization of continuous partitioning problems into a graph structure, generalizing discretization onto a Cartesian grid. This setup allows us to faithfully work on super-pixel graphs constructed by SLIC or Cut-Pursuit, massively decreasing the computational effort for lifted partitioning problems compared to a Cartesian grid, while optimal energy values remain similar: The global matching is still solved near-globally optimal. We discuss this methodology in detail and show examples in multi-label segmentation by minimal partitions and stereo estimation, where we demonstrate that the proposed graph discretization can reduce runtime as well as memory consumption of convex relaxations of matching problems by up to a factor of 10.},
+  annotation = {ZSCC: 0000000},
+  language = {en}
+}
+
+@phdthesis{geiping_image_2016,
+  title = {Image {{Analysis}} of {{Neural Tissue Development}}: {{Variational Methods}} for {{Segmentation}} and {{3D}}-{{Reconstruction}} from Large Pinhole Confocal Fluorescence Microscopy},
+  author = {Geiping, Jonas Alexander},
+  year = {2016},
+  month = sep,
+  address = {{Münster}},
+  abstract = {Three-dimensional time series data from confocal fluorescence microscopes is a valuable tool in biological research, but the data is distorted by Poisson noise and defocus blur of varying axial extent. We seek to obtain structural information about the develop- ment of neural tissue from these images and define a segmentation by an appropriate thresholding of reconstructed data. We model the data degradation and develop a reconstruction formulation based on variational methods. Due to imprecise knowledge of the blur kernel we extend local sparsity regularization to a local patch and use this prior as additional regularization. We show favorable analytical properties for this approach, implement the resulting algorithm with a primal-dual optimization scheme and test on artificial and real data.},
+  annotation = {00000},
+  school = {Westfälischen Wilhelms-Universität Münster},
+  type = {Master {{Thesis}}}
+}
+
+@article{geiping_inverting_2020,
+  title = {Inverting {{Gradients}} -- {{How}} Easy Is It to Break Privacy in Federated Learning?},
+  author = {Geiping, Jonas and Bauermeister, Hartmut and Dröge, Hannah and Moeller, Michael},
+  year = {2020},
+  month = mar,
+  abstract = {The idea of federated learning is to collaboratively train a neural network on a server. Each user receives the current weights of the network and in turns sends parameter updates (gradients) based on local data. This protocol has been designed not only to train neural networks data-efficiently, but also to provide privacy benefits for users, as their input data remains on device and only parameter gradients are shared. In this paper we show that sharing parameter gradients is by no means secure: By exploiting a cosine similarity loss along with optimization methods from adversarial attacks, we are able to faithfully reconstruct images at high resolution from the knowledge of their parameter gradients, and demonstrate that such a break of privacy is possible even for trained deep networks. Moreover, we analyze the effects of architecture as well as parameters on the difficulty of reconstructing the input image, prove that any input to a fully connected layer can be reconstructed analytically independent of the remaining architecture, and show numerically that even averaging gradients over several iterations or several images does not protect the user's privacy in federated learning applications in computer vision.},
+  archivePrefix = {arXiv},
+  eprint = {2003.14053},
+  eprinttype = {arxiv},
+  journal = {ArXiv200314053 Cs},
+  language = {en},
+  primaryClass = {cs}
+}
+
+@inproceedings{geiping_multiframe_2018,
+  title = {Multiframe {{Motion Coupling}} for {{Video Super Resolution}}},
+  booktitle = {Energy {{Minimization Methods}} in {{Computer Vision}} and {{Pattern Recognition}}},
+  author = {Geiping, Jonas and Dirks, Hendrik and Cremers, Daniel and Moeller, Michael},
+  year = {2018},
+  pages = {123--138},
+  publisher = {{Springer International Publishing}},
+  doi = {10.1007/978-3-319-78199-0 _ 9},
+  abstract = {The idea of video super resolution is to use different view points of a single scene to enhance the overall resolution and quality. Classical energy minimization approaches first establish a correspondence of the current frame to all its neighbors in some radius and then use this temporal information for enhancement. In this paper, we propose the first variational super resolution approach that computes several super resolved frames in one batch optimization procedure by incorporating motion information between the high-resolution image frames themselves. As a consequence, the number of motion estimation problems grows linearly in the number of frames, opposed to a quadratic growth of classical methods and temporal consistency is enforced naturally.We use infimal convolution regularization as well as an automatic parameter balancing scheme to automatically determine the reliability of the motion information and reweight the regularization locally. We demonstrate that our approach yields state-of-the-art results and even is competitive with machine learning approaches.},
+  isbn = {978-3-319-78199-0},
+  language = {en},
+  series = {Lecture {{Notes}} in {{Computer Science}}}
+}
+
+@inproceedings{geiping_parametric_2019-2,
+  title = {Parametric {{Majorization}} for {{Data}}-{{Driven Energy Minimization Methods}}},
+  booktitle = {Proceedings of the {{IEEE International Conference}} on {{Computer Vision}}},
+  author = {Geiping, Jonas and Moeller, Michael},
+  year = {2019},
+  pages = {10262--10273}
+}
+
+@article{geiping_witches_2020,
+  title = {Witches' {{Brew}}: {{Industrial Scale Data Poisoning}} via {{Gradient Matching}}},
+  shorttitle = {Witches' {{Brew}}},
+  author = {Geiping, Jonas and Fowl, Liam and Huang, W. Ronny and Czaja, Wojciech and Taylor, Gavin and Moeller, Michael and Goldstein, Tom},
+  year = {2020},
+  month = sep,
+  abstract = {Data Poisoning attacks involve an attacker modifying training data to maliciouslycontrol a model trained on this data. Previous poisoning attacks against deep neural networks have been limited in scope and success, working only in simplified settings or being prohibitively expensive for large datasets. In this work, we focus on a particularly malicious poisoning attack that is both "from scratch" and"clean label", meaning we analyze an attack that successfully works against new, randomly initialized models, and is nearly imperceptible to humans, all while perturbing only a small fraction of the training data. The central mechanism of this attack is matching the gradient direction of malicious examples. We analyze why this works, supplement with practical considerations. and show its threat to real-world practitioners, finding that it is the first poisoning method to cause targeted misclassification in modern deep networks trained from scratch on a full-sized, poisoned ImageNet dataset. Finally we demonstrate the limitations of existing defensive strategies against such an attack, concluding that data poisoning is a credible threat, even for large-scale deep learning systems.},
+  annotation = {ZSCC: NoCitationData[s0]},
+  archivePrefix = {arXiv},
+  eprint = {2009.02276},
+  eprinttype = {arxiv},
+  journal = {ArXiv200902276 Cs},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  primaryClass = {cs}
+}
+
+@article{goldblum_truth_2019,
+  title = {Truth or {{Backpropaganda}}? {{An Empirical Investigation}} of {{Deep Learning Theory}}},
+  shorttitle = {Truth or {{Backpropaganda}}?},
+  author = {Goldblum, Micah and Geiping, Jonas and Schwarzschild, Avi and Moeller, Michael and Goldstein, Tom},
+  year = {2019},
+  month = oct,
+  abstract = {We empirically evaluate common assumptions about neural networks that are widely held by practitioners and theorists alike. We study the prevalence of local minima in loss landscapes, whether small-norm parameter vectors generalize better (and whether this explains the advantages of weight decay), whether wide-network theories (like the neural tangent kernel) describe the behaviors of classifiers, and whether the rank of weight matrices can be linked to generalization and robustness in real-world networks.},
+  archivePrefix = {arXiv},
+  eprint = {1910.00359},
+  eprinttype = {arxiv},
+  journal = {ArXiv191000359 Cs Math Stat},
+  keywords = {Computer Science - Machine Learning,Mathematics - Optimization and Control,Statistics - Machine Learning},
+  primaryClass = {cs, math, stat}
+}
+
+@inproceedings{gorlitz_piecewise_2019-1,
+  title = {Piecewise {{Rigid Scene Flow}} with {{Implicit Motion Segmentation}}},
+  booktitle = {2019 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
+  author = {Görlitz, Andreas and Geiping, Jonas and Kolb, Andreas},
+  year = {2019},
+  month = nov,
+  pages = {1758--1765},
+  issn = {2153-0866},
+  doi = {10.1109/IROS40897.2019.8968018},
+  abstract = {In this paper, we introduce a novel variational approach to estimate the scene flow from RGB-D images. We regularize the ill-conditioned problem of scene flow estimation in a unified framework by enforcing piecewise rigid motion through decomposition into rotational and translational motion parts. Our model crucially regularizes these components by an L0 “norm”, thereby facilitating implicit motion segmentation in a joint energy minimization problem. Yet, we also show that this energy can be efficiently minimized by a proximal primal-dual algorithm. By implementing this approximate L0 rigid motion regularization, our scene flow estimation approach implicitly segments the observed scene of into regions of nearly constant rigid motion. We evaluate our joint scene flow and segmentation estimation approach on a variety of test scenarios, with and without ground truth data, and demonstrate that we outperform current scene flow techniques.},
+  keywords = {constant rigid motion,ill-conditioned problem,image colour analysis,image segmentation,image sequences,implicit motion segmentation estimation approach,joint energy minimization problem,L0 rigid motion regularization,minimisation,motion estimation,observed scene,piecewise rigid motion,piecewise rigid scene flow techniques,proximal primal-dual algorithm,RGB-D images,rotational motion parts,scene flow estimation approach,translational motion parts,variational approach}
+}
+
+@article{huang_metapoison:_2020,
+  title = {{{MetaPoison}}: {{Practical General}}-Purpose {{Clean}}-Label {{Data Poisoning}}},
+  shorttitle = {{{MetaPoison}}},
+  author = {Huang, W. Ronny and Geiping, Jonas and Fowl, Liam and Taylor, Gavin and Goldstein, Tom},
+  year = {2020},
+  month = apr,
+  abstract = {Data poisoning--the process by which an attacker takes control of a model by making imperceptible changes to a subset of the training data--is an emerging threat in the context of neural networks. Existing attacks for data poisoning have relied on hand-crafted heuristics. Instead, we pose crafting poisons more generally as a bi-level optimization problem, where the inner level corresponds to training a network on a poisoned dataset and the outer level corresponds to updating those poisons to achieve a desired behavior on the trained model. We then propose MetaPoison, a first-order method to solve this optimization quickly. MetaPoison is effective: it outperforms previous clean-label poisoning methods by a large margin under the same setting. MetaPoison is robust: its poisons transfer to a variety of victims with unknown hyperparameters and architectures. MetaPoison is also general-purpose, working not only in fine-tuning scenarios, but also for end-to-end training from scratch with remarkable success, e.g. causing a target image to be misclassified 90\% of the time via manipulating just 1\% of the dataset. Additionally, MetaPoison can achieve arbitrary adversary goals not previously possible--like using poisons of one class to make a target image don the label of another arbitrarily chosen class. Finally, MetaPoison works in the real-world. We demonstrate successful data poisoning of models trained on Google Cloud AutoML Vision. Code and premade poisons are provided at https://github.com/wronnyhuang/metapoison},
+  archivePrefix = {arXiv},
+  eprint = {2004.00225},
+  eprinttype = {arxiv},
+  journal = {ArXiv200400225 Cs Stat},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning,Statistics - Machine Learning},
+  primaryClass = {cs, stat}
+}
+
+
