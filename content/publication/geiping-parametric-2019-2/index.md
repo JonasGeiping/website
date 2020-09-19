@@ -10,7 +10,7 @@ authors:
 tags: []
 categories: []
 date: '2019-01-01'
-lastmod: 2020-09-08T20:33:30+02:00
+lastmod: 2020-09-19T20:47:35+02:00
 featured: true
 draft: false
 
@@ -28,9 +28,23 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-08T18:33:30.148426Z'
+publishDate: '2020-09-19T18:47:34.965094Z'
 publication_types:
 - 1
-abstract: ''
+abstract: Energy minimization methods are a classical tool in a multitude of computer
+  vision applications. While they are interpretable and well-studied, their regularity
+  assumptions are difficult to design by hand. Deep learning techniques on the other
+  hand are purely data-driven, often provide excellent results, but are very difficult
+  to constrain to predefined physical or safety-critical models. A possible combination
+  between the two approaches is to design a parametric en- ergy and train the free
+  parameters in such a way that minimizers of the energy correspond to desired solution
+  on a set of training examples. Unfortunately, such formulations typically lead to
+  bi-level optimization problems, on which common optimization algorithms are difficult
+  to scale to modern requirements in data processing and efficiency. In this work,
+  we present a new strategy to optimize these bi-level problems. We investigate surrogate
+  single-level problems that majorize the target problems and can be implemented with
+  existing tools, leading to efficient algorithms without collapse of the energy function.
+  This framework of strategies enables new avenues to the training of parameterized
+  energy minimization models from large data.
 publication: '*Proceedings of the IEEE International Conference on Computer Vision*'
 ---

@@ -30,7 +30,7 @@ tags:
 - '"variational approach"'
 categories: []
 date: '2019-11-01'
-lastmod: 2020-09-08T20:33:30+02:00
+lastmod: 2020-09-19T20:47:35+02:00
 featured: false
 draft: false
 
@@ -48,7 +48,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-08T18:33:30.325023Z'
+publishDate: '2020-09-19T18:47:35.182087Z'
 publication_types:
 - 1
 abstract: In this paper, we introduce a novel variational approach to estimate the

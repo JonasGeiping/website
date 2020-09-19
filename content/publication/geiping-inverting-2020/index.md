@@ -12,7 +12,7 @@ authors:
 tags: []
 categories: []
 date: '2020-03-01'
-lastmod: 2020-09-08T20:33:30+02:00
+lastmod: 2020-09-19T20:47:34+02:00
 featured: true
 draft: false
 
@@ -30,7 +30,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-08T18:33:30.030756Z'
+publishDate: '2020-09-19T18:47:34.790338Z'
 publication_types:
 - 2
 abstract: "The idea of federated learning is to collaboratively train a neural network\
@@ -49,5 +49,5 @@ abstract: "The idea of federated learning is to collaboratively train a neural n
   \ show numerically that even averaging gradients over several iterations or several\
   \ images does not protect the user's privacy in federated learning applications\
   \ in computer vision."
-publication: '*ArXiv200314053 Cs*'
+publication: '*arXiv:2003.14053 [cs]*'
 ---

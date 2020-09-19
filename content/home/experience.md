@@ -19,12 +19,12 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Research Staff"
+  title = "Research Associate"
   company = "University of Siegen - Computer Vision Group"
   company_url = ""
   date_start = "2016-10-01"
   date_end = ""
-  description = """Research into topics related to mathematical optimization in computer vision,
+  description = """PhD Student in the group of Michael Moeller. Research into topics related to mathematical optimization in computer vision,
   variational methods, nonconvex optimization theory, efficient learning of energy models, bilevel optimization."""
 
   [[experience]]

@@ -18,7 +18,7 @@ tags:
 - '"Statistics - Machine Learning"'
 categories: []
 date: '2020-04-01'
-lastmod: 2020-09-08T20:33:30+02:00
+lastmod: 2020-09-19T20:47:35+02:00
 featured: false
 draft: false
 
@@ -36,7 +36,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-08T18:33:30.384631Z'
+publishDate: '2020-09-19T18:47:35.248442Z'
 publication_types:
 - 2
 abstract: 'Data poisoning--the process by which an attacker takes control of a model
@@ -58,5 +58,5 @@ abstract: 'Data poisoning--the process by which an attacker takes control of a m
   class. Finally, MetaPoison works in the real-world. We demonstrate successful data
   poisoning of models trained on Google Cloud AutoML Vision. Code and premade poisons
   are provided at https://github.com/wronnyhuang/metapoison'
-publication: '*ArXiv200400225 Cs Stat*'
+publication: '*arXiv:2004.00225 [cs, stat]*'
 ---

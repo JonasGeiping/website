@@ -17,8 +17,8 @@ tags:
 - '"Computer Science - Machine Learning"'
 categories: []
 date: '2020-09-01'
-lastmod: 2020-09-08T20:33:30+02:00
-featured: false
+lastmod: 2020-09-19T20:47:35+02:00
+featured: true
 draft: false
 
 # Featured image
@@ -35,7 +35,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-08T18:33:30.205215Z'
+publishDate: '2020-09-19T18:47:35.032370Z'
 publication_types:
 - 2
 abstract: Data Poisoning attacks involve an attacker modifying training data to maliciouslycontrol
@@ -53,5 +53,5 @@ abstract: Data Poisoning attacks involve an attacker modifying training data to 
   we demonstrate the limitations of existing defensive strategies against such an
   attack, concluding that data poisoning is a credible threat, even for large-scale
   deep learning systems.
-publication: '*ArXiv200902276 Cs*'
+publication: '*arXiv:2009.02276 [cs]*'
 ---

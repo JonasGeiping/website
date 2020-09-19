@@ -6,10 +6,15 @@ subtitle: ''
 summary: ''
 authors:
 - Jonas Geiping
-tags: []
+- Fjedor Gaede
+- Hartmut Bauermeister
+- Michael Moeller
+tags:
+- '"Computer Science - Computer Vision and Pattern Recognition"'
+- '"Mathematics - Optimization and Control"'
 categories: []
-date: -01-01
-lastmod: 2020-09-08T20:33:29+02:00
+date: '2020-09-01'
+lastmod: 2020-09-19T20:47:34+02:00
 featured: false
 draft: false
 
@@ -27,9 +32,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-08T18:33:29.911682Z'
+publishDate: '2020-09-19T18:47:34.637159Z'
 publication_types:
-- 2
+- 1
 abstract: 'Matching and partitioning problems are fundamentals of computer vision
   applications with examples in multilabel segmentation, stereo estimation and optical-flow
   computation. These tasks can be posed as non-convex energy minimization problems
@@ -45,5 +50,5 @@ abstract: 'Matching and partitioning problems are fundamentals of computer visio
   stereo estimation, where we demonstrate that the proposed graph discretization can
   reduce runtime as well as memory consumption of convex relaxations of matching problems
   by up to a factor of 10.'
-publication: ''
+publication: '*BMVC 2020 (Oral Presentation)*'
 ---

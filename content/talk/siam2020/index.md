@@ -11,7 +11,7 @@ address:
   region:
   postcode:
   country:
-summary: "Talked about at the MDS2020 minisymposium ”Learning parameterized energy minimization models” about ”Parametric Majorization for Data-Driven Energy Minimization Methods”."
+summary: "Talked about at the SIAM MDS2020 minisymposium ”Learning parameterized energy minimization models” about ”Parametric Majorization for Data-Driven Energy Minimization Methods”."
 abstract:
 
 # Talk start and end times.

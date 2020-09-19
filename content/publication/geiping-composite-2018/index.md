@@ -14,7 +14,7 @@ tags:
 - '"Mathematics - Optimization and Control"'
 categories: []
 date: '2018-01-01'
-lastmod: 2020-09-08T20:33:29+02:00
+lastmod: 2020-09-19T20:47:34+02:00
 featured: false
 draft: false
 
@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-08T18:33:29.853976Z'
+publishDate: '2020-09-19T18:47:34.573689Z'
 publication_types:
 - 2
 abstract: The minimization of a nonconvex composite function can model a variety of
@@ -47,6 +47,6 @@ abstract: The minimization of a nonconvex composite function can model a variety
   when the nonconvex majorizers are solved to global optimality. Finally, we illustrate
   the behavior of our algorithm for depth superresolution from raw time-of-flight
   data.
-publication: '*SIAM J. Imaging Sci.*'
+publication: '*SIAM Journal on Imaging Sciences*'
 doi: 10.1137/18M1171989
 ---
