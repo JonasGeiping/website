@@ -1,0 +1,46 @@
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: Truth or Backpropaganda? An Empirical Investigation of Deep Learning Theory
+subtitle: ''
+summary: ''
+authors:
+- Micah Goldblum
+- Jonas Geiping
+- Avi Schwarzschild
+- Michael Moeller
+- Tom Goldstein
+tags: []
+categories: []
+date: '2020-04-01'
+lastmod: 2020-09-19T20:47:35+02:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2020-09-19T18:47:35.100817Z'
+publication_types:
+- 1
+abstract: 'We empirically evaluate common assumptions about neural networks that are
+  widely held by practitioners and theorists alike. In this work, we: (1) prove the
+  widespread existence of suboptimal local minima in the loss landscape of neural
+  networks, and we use our theory to find examples; (2) show that small-norm parameters
+  are not optimal for generalization; (3) demonstrate that ResNets do not conform
+  to wide-network theories, such as the neural tangent kernel, and that the interaction
+  between skip connections and batch normalization plays a role; (4) find that rank
+  does not correlate with generalization or robustness in a practical setting.'
+publication: '*ICLR 2020 (Oral Presentation)*'
+---

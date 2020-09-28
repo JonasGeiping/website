@@ -1,0 +1,11 @@
+# Font style metadata
+name = "firasans"
+
+# Optional Google font URL
+google_fonts = "family=Fira+Sans:wght@300"
+
+# Font families
+heading_font = "Fira Sans"
+body_font = "Fira Sans"
+nav_font = "Fira Sans"
+mono_font = "Fira Sans"
