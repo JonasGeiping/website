@@ -14,7 +14,7 @@ tags:
 - '"Mathematics - Optimization and Control"'
 categories: []
 date: '2018-01-01'
-lastmod: 2020-09-19T20:47:34+02:00
+lastmod: 2021-05-31T15:10:54+02:00
 featured: false
 draft: false
 
@@ -32,9 +32,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-19T18:47:34.573689Z'
+publishDate: '2021-10-11T22:01:24.994390Z'
 publication_types:
-- 2
+- '2'
 abstract: The minimization of a nonconvex composite function can model a variety of
   imaging tasks. A popular class of algorithms for solving such problems are majorization-minimization
   techniques which iteratively approximate the composite nonconvex function by a majorizing

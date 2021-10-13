@@ -1,16 +1,19 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: Comparison of Topology-Preserving Segmentation Methods and Application to Mitotic
-  Cell Tracking
+title: 'MetaPoison: Practical General-Purpose Clean-Label Data Poisoning'
 subtitle: ''
 summary: ''
 authors:
-- Jonas Alexander Geiping
+- W. Ronny Huang
+- Jonas Geiping
+- Liam Fowl
+- Gavin Taylor
+- Tom Goldstein
 tags: []
 categories: []
-date: '2014-09-01'
-lastmod: 2021-05-31T15:10:54+02:00
+date: '2020-12-01'
+lastmod: 2021-05-31T15:10:55+02:00
 featured: false
 draft: false
 
@@ -28,9 +31,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:24.757650Z'
+publishDate: '2021-10-11T22:01:28.215798Z'
 publication_types:
-- '7'
+- '1'
 abstract: ''
-publication: ''
+publication: '*Advances in Neural Information Processing Systems*'
 ---

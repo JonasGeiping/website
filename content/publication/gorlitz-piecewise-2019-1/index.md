@@ -30,7 +30,7 @@ tags:
 - '"variational approach"'
 categories: []
 date: '2019-11-01'
-lastmod: 2020-09-19T20:47:35+02:00
+lastmod: 2021-05-31T15:10:55+02:00
 featured: false
 draft: false
 
@@ -48,14 +48,14 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-19T18:47:35.182087Z'
+publishDate: '2021-10-11T22:01:28.072444Z'
 publication_types:
-- 1
+- '1'
 abstract: In this paper, we introduce a novel variational approach to estimate the
   scene flow from RGB-D images. We regularize the ill-conditioned problem of scene
   flow estimation in a unified framework by enforcing piecewise rigid motion through
   decomposition into rotational and translational motion parts. Our model crucially
-  regularizes these components by an L0 “norm”, thereby facilitating implicit motion
+  regularizes these components by an L0 ``norm'', thereby facilitating implicit motion
   segmentation in a joint energy minimization problem. Yet, we also show that this
   energy can be efficiently minimized by a proximal primal-dual algorithm. By implementing
   this approximate L0 rigid motion regularization, our scene flow estimation approach

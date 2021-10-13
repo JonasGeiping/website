@@ -10,7 +10,7 @@ authors:
 tags: []
 categories: []
 date: '2016-09-01'
-lastmod: 2020-09-19T20:47:34+02:00
+lastmod: 2021-05-31T15:10:54+02:00
 featured: false
 draft: false
 
@@ -28,9 +28,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-19T18:47:34.725607Z'
+publishDate: '2021-10-11T22:01:25.768056Z'
 publication_types:
-- 7
+- '7'
 abstract: Three-dimensional time series data from confocal fluorescence microscopes
   is a valuable tool in biological research, but the data is distorted by Poisson
   noise and defocus blur of varying axial extent. We seek to obtain structural information

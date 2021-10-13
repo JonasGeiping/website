@@ -1,17 +1,19 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: Comparison of Topology-Preserving Segmentation Methods and Application to Mitotic
-  Cell Tracking
+title: Inverting Gradients - How Easy Is It to Break Privacy in Federated Learning?
 subtitle: ''
 summary: ''
 authors:
-- Jonas Alexander Geiping
+- Jonas Geiping
+- Hartmut Bauermeister
+- Hannah Dröge
+- Michael Moeller
 tags: []
 categories: []
-date: '2014-09-01'
-lastmod: 2021-05-31T15:10:54+02:00
-featured: false
+date: '2020-12-01'
+lastmod: 2021-05-31T15:02:48+02:00
+featured: True
 draft: false
 
 # Featured image
@@ -28,9 +30,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:24.757650Z'
+publishDate: '2021-10-11T22:01:26.042706Z'
 publication_types:
-- '7'
+- '1'
 abstract: ''
-publication: ''
+publication: '*Advances in Neural Information Processing Systems*'
 ---

@@ -1,17 +1,22 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: Comparison of Topology-Preserving Segmentation Methods and Application to Mitotic
-  Cell Tracking
+title: "Witches' Brew: Industrial Scale Data Poisoning via Gradient Matching"
 subtitle: ''
 summary: ''
 authors:
-- Jonas Alexander Geiping
+- Jonas Geiping
+- Liam H. Fowl
+- W. Ronny Huang
+- Wojciech Czaja
+- Gavin Taylor
+- Michael Moeller
+- Tom Goldstein
 tags: []
 categories: []
-date: '2014-09-01'
-lastmod: 2021-05-31T15:10:54+02:00
-featured: false
+date: '2021-04-01'
+lastmod: 2021-05-31T15:02:49+02:00
+featured: True
 draft: false
 
 # Featured image
@@ -28,9 +33,11 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:24.757650Z'
+publishDate: '2021-10-11T22:01:27.550133Z'
 publication_types:
-- '7'
-abstract: ''
-publication: ''
+- '1'
+abstract: Data Poisoning attacks modify training data to maliciously control a model
+  trained on such data. Previous poisoning attacks against deep neural networks have
+  been limited in scope and success...
+publication: '*International Conference on Learning Representations*'
 ---

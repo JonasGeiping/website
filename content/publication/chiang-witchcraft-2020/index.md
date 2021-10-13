@@ -34,7 +34,7 @@ tags:
 - '"witchcraft"'
 categories: []
 date: '2020-05-01'
-lastmod: 2020-09-19T20:47:34+02:00
+lastmod: 2021-05-31T15:10:53+02:00
 featured: false
 draft: false
 
@@ -52,9 +52,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-19T18:47:34.424726Z'
+publishDate: '2021-10-11T22:01:23.712598Z'
 publication_types:
-- 1
+- '1'
 abstract: State-of-the-art adversarial attacks on neural networks use expensive iterative
   methods and numerous random restarts from different initial points. Iterative FGSM-based
   methods without restarts trade off performance for computational efficiency because

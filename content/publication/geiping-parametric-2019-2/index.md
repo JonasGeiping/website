@@ -10,8 +10,8 @@ authors:
 tags: []
 categories: []
 date: '2019-01-01'
-lastmod: 2020-09-19T20:47:35+02:00
-featured: true
+lastmod: 2021-05-31T15:02:48+02:00
+featured: false
 draft: false
 
 # Featured image
@@ -28,9 +28,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-19T18:47:34.965094Z'
+publishDate: '2021-10-11T22:01:26.826521Z'
 publication_types:
-- 1
+- '1'
 abstract: Energy minimization methods are a classical tool in a multitude of computer
   vision applications. While they are interpretable and well-studied, their regularity
   assumptions are difficult to design by hand. Deep learning techniques on the other

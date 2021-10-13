@@ -88,19 +88,19 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "jonas.geiping@uni-siegen.de"
-phone = "+49-271-740-4586"
+email = "jonas.geiping@gmail.de"
+phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Hölderlinstraße 3", city = "Siegen", region = "NRW", postcode = "57076", country = "Germany", country_code = "GER"}
+address = {street = "8125 Paint Branch Dr", city = "College Park", region = "Maryland", postcode = "20742", country = "USA", country_code = "US"}
 
-# Geographic coordinates
+# Geographic coordinates 
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 coordinates = {}
 
 # Directions for visitors to locate you.
-directions = "H-A-7117/2"
+directions = "IRB 5124"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.

@@ -14,7 +14,7 @@ tags:
 - '"Mathematics - Optimization and Control"'
 categories: []
 date: '2020-09-01'
-lastmod: 2020-09-19T20:47:34+02:00
+lastmod: 2021-05-31T15:10:54+02:00
 featured: false
 draft: false
 
@@ -32,9 +32,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-19T18:47:34.637159Z'
+publishDate: '2021-10-11T22:01:25.474674Z'
 publication_types:
-- 1
+- '1'
 abstract: 'Matching and partitioning problems are fundamentals of computer vision
   applications with examples in multilabel segmentation, stereo estimation and optical-flow
   computation. These tasks can be posed as non-convex energy minimization problems
@@ -50,5 +50,5 @@ abstract: 'Matching and partitioning problems are fundamentals of computer visio
   stereo estimation, where we demonstrate that the proposed graph discretization can
   reduce runtime as well as memory consumption of convex relaxations of matching problems
   by up to a factor of 10.'
-publication: '*BMVC 2020 (Oral Presentation)*'
+publication: '*31st British Machine Vision Conference (BMVC 2020, Oral Presentation)*'
 ---

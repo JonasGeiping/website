@@ -1,15 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: Comparison of Topology-Preserving Segmentation Methods and Application to Mitotic
-  Cell Tracking
+title: Modern Optimization Techniques in Computer Vision
 subtitle: ''
 summary: ''
 authors:
-- Jonas Alexander Geiping
+- Jonas Geiping
 tags: []
 categories: []
-date: '2014-09-01'
+date: '2021-01-01'
 lastmod: 2021-05-31T15:10:54+02:00
 featured: false
 draft: false
@@ -28,9 +27,16 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:24.757650Z'
+publishDate: '2021-10-11T22:01:26.317562Z'
 publication_types:
 - '7'
-abstract: ''
+abstract: This thesis presents research into multiple optimization topics in computer
+  vision with a conceptual focus on composite optimization problems such as bilevel
+  optimization. The optimal graph-based discretization of variational problems in
+  minimal partitions, the theoretical analysis of nonconvex composite optimization
+  by nonconvex majorizers, the bilevel problem of learning energy models by nonconvex
+  majorizers, and the machine learning security applications of bilevel optimization
+  in privacy analysis of federated learning and dataset poisoning of general image
+  classification are featured in this cumulative work.
 publication: ''
 ---

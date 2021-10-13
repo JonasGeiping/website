@@ -13,7 +13,7 @@ authors:
 tags: []
 categories: []
 date: '2020-04-01'
-lastmod: 2020-09-19T20:47:35+02:00
+lastmod: 2021-05-31T15:10:55+02:00
 featured: false
 draft: false
 
@@ -31,9 +31,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-19T18:47:35.100817Z'
+publishDate: '2021-10-11T22:01:27.811916Z'
 publication_types:
-- 1
+- '1'
 abstract: 'We empirically evaluate common assumptions about neural networks that are
   widely held by practitioners and theorists alike. In this work, we: (1) prove the
   widespread existence of suboptimal local minima in the loss landscape of neural
@@ -42,5 +42,6 @@ abstract: 'We empirically evaluate common assumptions about neural networks that
   to wide-network theories, such as the neural tangent kernel, and that the interaction
   between skip connections and batch normalization plays a role; (4) find that rank
   does not correlate with generalization or robustness in a practical setting.'
-publication: '*ICLR 2020 (Oral Presentation)*'
+publication: '*Eighth International Conference on Learning Representations (ICLR 2020,
+  Oral Presentation)*'
 ---

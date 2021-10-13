@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: University of Siegen
-  url: "https://www.uni-siegen.de"
+- name: University of Maryland, College Park
+  url: "https://www.cs.umd.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I conduct research in topics on the intersection of mathematical optimization and machine learning.
+bio: I conduct research in topics on the intersection of mathematical optimization and machine learning with implications for security and privacy.
 
 interests:
 - Mathematical Optimization
@@ -30,7 +30,7 @@ education:
   courses:
   - course: Dr. rer. nat. in Computer Science
     institution: University of Siegen
-    year: 2016-????
+    year: 2016-2021
   - course: M.Sc. in Mathematics
     institution: University of Münster (WWU)
     year: 2014-2016
@@ -74,4 +74,6 @@ email: ""
 ---
 
 
-Hello, I'm Jonas . I conduct research in computer science as PhD student at the University of Siegen. My background is in Mathematics, more specifically in mathematical optimization and I am interested in research that intersects current deep learning and mathematical optimization, with my main area of applications being computer vision.
+Hello, I'm Jonas. I conduct research in computer science as PhD student at the University of Siegen. My background is in Mathematics, more specifically in mathematical optimization and I am interested in research that intersects current deep learning and mathematical optimization in general, but also in the implications of optimization in machine learning for the design of secure and private ML systems.
+
+This webpage is likely not entirely up to date. Google/Semantic scholar and arxiv will have the latest updates.
