@@ -8,13 +8,13 @@ authors:
 - Jonas Geiping
 - Michael Moeller
 tags:
-- '"90C26; 90C06; 68U10; 32B20; 65K10; 47J06"'
-- '"Computer Science - Computer Vision and Pattern Recognition"'
-- '"Mathematics - Numerical Analysis"'
-- '"Mathematics - Optimization and Control"'
+- 90C26; 90C06; 68U10; 32B20; 65K10; 47J06
+- Computer Science - Computer Vision and Pattern Recognition
+- Mathematics - Numerical Analysis
+- Mathematics - Optimization and Control
 categories: []
 date: '2018-01-01'
-lastmod: 2021-05-31T15:10:54+02:00
+lastmod: 2022-03-07T13:07:33-05:00
 featured: false
 draft: false
 
@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:24.994390Z'
+publishDate: '2022-03-07T18:07:33.656626Z'
 publication_types:
 - '2'
 abstract: The minimization of a nonconvex composite function can model a variety of

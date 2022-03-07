@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2020)"
+title: "The 5th TrustML Young Scientist Seminar"
 event:
 event_url:
 location: Online
@@ -11,12 +11,13 @@ address:
   region:
   postcode:
   country:
-summary: "Presented our recent work ”Inverting Gradients - How easy is it to break privacy in federated learning?”."
+summary: "Presented recent work for privacy attacks in Federated Learning at RIKEN AIP's 5th TrustML Young Scientist Seminar. Discussed ”Inverting Gradients - How easy is it to break privacy in FL” and recent works on malicious server models (Robbing the Fed, Decepticons, Fishing for User Data)."
+# More information can be found at https://aip.riken.jp/video/trustml-young-scientist-seminar-4-20220216/?lang=en.
 abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-12-06
+date: 2022-02-24
 # date_end: 2020-09-08T21:01:15+02:00
 all_day: true
 

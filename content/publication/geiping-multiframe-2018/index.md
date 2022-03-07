@@ -12,7 +12,7 @@ authors:
 tags: []
 categories: []
 date: '2018-01-01'
-lastmod: 2021-05-31T15:10:55+02:00
+lastmod: 2022-03-07T13:07:35-05:00
 featured: false
 draft: false
 
@@ -30,7 +30,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:26.564709Z'
+publishDate: '2022-03-07T18:07:35.162360Z'
 publication_types:
 - '1'
 abstract: The idea of video super resolution is to use different view points of a

@@ -11,10 +11,10 @@ authors:
 - Adam Czapli\ŉski
 - Michael Moeller
 tags:
-- '"Computer Science - Computer Vision and Pattern Recognition"'
+- Computer Science - Computer Vision and Pattern Recognition
 categories: []
 date: '2021-06-01'
-lastmod: 2021-10-11T18:01:24-04:00
+lastmod: 2022-03-07T13:07:33-05:00
 featured: false
 draft: false
 
@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:24.505766Z'
+publishDate: '2022-03-07T18:07:33.158579Z'
 publication_types:
 - '2'
 abstract: Many applications require the robustness, or ideally the invariance, of
@@ -52,4 +52,9 @@ abstract: Many applications require the robustness, or ideally the invariance, o
   artifacts only) as well as the provable rotational and scaling invariance of 3D
   point cloud classification.
 publication: '*arXiv:2106.10044 [cs]*'
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2106.10044
+- name: URL
+  url: http://arxiv.org/abs/2106.10044
 ---

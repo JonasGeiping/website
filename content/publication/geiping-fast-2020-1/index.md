@@ -10,11 +10,11 @@ authors:
 - Hartmut Bauermeister
 - Michael Moeller
 tags:
-- '"Computer Science - Computer Vision and Pattern Recognition"'
-- '"Mathematics - Optimization and Control"'
+- Computer Science - Computer Vision and Pattern Recognition
+- Mathematics - Optimization and Control
 categories: []
 date: '2020-09-01'
-lastmod: 2021-05-31T15:10:54+02:00
+lastmod: 2022-03-07T13:07:34-05:00
 featured: false
 draft: false
 
@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:25.474674Z'
+publishDate: '2022-03-07T18:07:34.156129Z'
 publication_types:
 - '1'
 abstract: 'Matching and partitioning problems are fundamentals of computer vision
@@ -51,4 +51,7 @@ abstract: 'Matching and partitioning problems are fundamentals of computer visio
   reduce runtime as well as memory consumption of convex relaxations of matching problems
   by up to a factor of 10.'
 publication: '*31st British Machine Vision Conference (BMVC 2020, Oral Presentation)*'
+links:
+- name: URL
+  url: https://www.bmvc2020-conference.com/conference/papers/paper_0694.html
 ---

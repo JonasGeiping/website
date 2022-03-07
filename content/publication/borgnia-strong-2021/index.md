@@ -15,21 +15,21 @@ authors:
 - Tom Goldstein
 - Arjun Gupta
 tags:
-- '"Adversarial Attacks"'
-- '"Backdoor Attacks"'
-- '"Conferences"'
-- '"Data Augmentation"'
-- '"Data models"'
-- '"Data Poisoning"'
-- '"Differential Privacy"'
-- '"Industries"'
-- '"Machine learning"'
-- '"Signal processing"'
-- '"Toxicology"'
-- '"Training data"'
+- Adversarial Attacks
+- Backdoor Attacks
+- Conferences
+- Data Augmentation
+- Data models
+- Data Poisoning
+- Differential Privacy
+- Industries
+- Machine learning
+- Signal processing
+- Toxicology
+- Training data
 categories: []
 date: '2021-06-01'
-lastmod: 2021-05-31T15:10:53+02:00
+lastmod: 2022-03-07T13:07:31-05:00
 featured: false
 draft: false
 
@@ -47,7 +47,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:23.459845Z'
+publishDate: '2022-03-07T18:07:31.643686Z'
 publication_types:
 - '1'
 abstract: Data poisoning and backdoor attacks manipulate victim models by maliciously

@@ -13,7 +13,7 @@ authors:
 tags: []
 categories: []
 date: '2020-04-01'
-lastmod: 2021-05-31T15:10:55+02:00
+lastmod: 2022-03-07T13:07:36-05:00
 featured: false
 draft: false
 
@@ -31,7 +31,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:27.811916Z'
+publishDate: '2022-03-07T18:07:36.405489Z'
 publication_types:
 - '1'
 abstract: 'We empirically evaluate common assumptions about neural networks that are
@@ -44,4 +44,7 @@ abstract: 'We empirically evaluate common assumptions about neural networks that
   does not correlate with generalization or robustness in a practical setting.'
 publication: '*Eighth International Conference on Learning Representations (ICLR 2020,
   Oral Presentation)*'
+links:
+- name: URL
+  url: https://iclr.cc/virtual_2020/poster_HyxyIgHFvr.html
 ---

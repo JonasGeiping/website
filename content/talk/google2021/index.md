@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2020)"
+title: "Google's Privacy Testing Research Meeting"
 event:
 event_url:
 location: Online
@@ -11,12 +11,12 @@ address:
   region:
   postcode:
   country:
-summary: "Presented our recent work ”Inverting Gradients - How easy is it to break privacy in federated learning?”."
+summary: "Presented and discussed recent work on privacy attacks in Federated Learning."
 abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-12-06
+date: 2021-06-24
 # date_end: 2020-09-08T21:01:15+02:00
 all_day: true
 

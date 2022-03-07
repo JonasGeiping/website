@@ -10,7 +10,7 @@ authors:
 tags: []
 categories: []
 date: '2019-01-01'
-lastmod: 2021-05-31T15:02:48+02:00
+lastmod: 2022-03-07T13:07:35-05:00
 featured: false
 draft: false
 
@@ -28,7 +28,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:26.826521Z'
+publishDate: '2022-03-07T18:07:35.405238Z'
 publication_types:
 - '1'
 abstract: Energy minimization methods are a classical tool in a multitude of computer
@@ -47,4 +47,7 @@ abstract: Energy minimization methods are a classical tool in a multitude of com
   This framework of strategies enables new avenues to the training of parameterized
   energy minimization models from large data.
 publication: '*Proceedings of the IEEE International Conference on Computer Vision*'
+links:
+- name: URL
+  url: http://openaccess.thecvf.com/content_ICCV_2019/html/Geiping_Parametric_Majorization_for_Data-Driven_Energy_Minimization_Methods_ICCV_2019_paper.html
 ---

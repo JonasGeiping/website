@@ -9,7 +9,7 @@ authors:
 tags: []
 categories: []
 date: '2021-01-01'
-lastmod: 2021-05-31T15:10:54+02:00
+lastmod: 2022-03-07T13:07:35-05:00
 featured: false
 draft: false
 
@@ -27,7 +27,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:26.317562Z'
+publishDate: '2022-03-07T18:07:34.912472Z'
 publication_types:
 - '7'
 abstract: This thesis presents research into multiple optimization topics in computer
@@ -39,4 +39,7 @@ abstract: This thesis presents research into multiple optimization topics in com
   in privacy analysis of federated learning and dataset poisoning of general image
   classification are featured in this cumulative work.
 publication: ''
+links:
+- name: URL
+  url: https://dspace.ub.uni-siegen.de/handle/ubsi/1897
 ---

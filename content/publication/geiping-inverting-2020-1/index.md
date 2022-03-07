@@ -12,8 +12,8 @@ authors:
 tags: []
 categories: []
 date: '2020-12-01'
-lastmod: 2021-05-31T15:02:48+02:00
-featured: True
+lastmod: 2022-03-07T13:07:34-05:00
+featured: false
 draft: false
 
 # Featured image
@@ -30,9 +30,12 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:26.042706Z'
+publishDate: '2022-03-07T18:07:34.659072Z'
 publication_types:
 - '1'
 abstract: ''
 publication: '*Advances in Neural Information Processing Systems*'
+links:
+- name: URL
+  url: https://proceedings.neurips.cc//paper_files/paper/2020/hash/c4ede56bbd98819ae6112b20ac6bf145-Abstract.html
 ---

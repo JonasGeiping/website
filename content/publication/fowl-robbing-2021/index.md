@@ -1,21 +1,22 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: Stochastic Training Is Not Necessary for Generalization
+title: 'Robbing the Fed: Directly Obtaining Private Data in Federated Learning with
+  Modified Models'
 subtitle: ''
 summary: ''
 authors:
+- Liam H. Fowl
 - Jonas Geiping
+- Wojciech Czaja
 - Micah Goldblum
-- Phil Pope
-- Michael Moeller
 - Tom Goldstein
 tags:
+- Computer Science - Cryptography and Security
 - Computer Science - Machine Learning
-- Mathematics - Optimization and Control
 categories: []
 date: '2021-09-01'
-lastmod: 2022-03-07T13:01:33-05:00
+lastmod: 2022-03-07T13:01:31-05:00
 featured: true
 draft: false
 
@@ -33,16 +34,16 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-03-07T18:07:21.100483Z'
+publishDate: '2022-03-07T18:07:19.754376Z'
 publication_types:
 - '1'
-abstract: It is widely believed that the implicit regularization of SGD is fundamental
-  to the impressive generalization behavior we observe in neural networks.  In this
-  work, we demonstrate that...
+abstract: Federated learning has quickly gained popularity with its promises of increased
+  user privacy and efficiency.  Previous works have shown that federated gradient
+  updates contain information that can...
 publication: '*International Conference on Learning Representations*'
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/2109.14119
+  url: https://arxiv.org/abs/2110.13057
 - name: URL
-  url: https://openreview.net/forum?id=ZBESeIUB5k
+  url: https://openreview.net/forum?id=fwzUgo0FM9v
 ---

@@ -15,8 +15,8 @@ authors:
 tags: []
 categories: []
 date: '2021-04-01'
-lastmod: 2021-05-31T15:02:49+02:00
-featured: True
+lastmod: 2022-03-07T13:07:36-05:00
+featured: false
 draft: false
 
 # Featured image
@@ -33,11 +33,14 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:27.550133Z'
+publishDate: '2022-03-07T18:07:36.156882Z'
 publication_types:
 - '1'
 abstract: Data Poisoning attacks modify training data to maliciously control a model
   trained on such data. Previous poisoning attacks against deep neural networks have
   been limited in scope and success...
 publication: '*International Conference on Learning Representations*'
+links:
+- name: URL
+  url: https://openreview.net/forum?id=01olnfLIbD
 ---

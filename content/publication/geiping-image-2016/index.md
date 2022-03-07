@@ -10,7 +10,7 @@ authors:
 tags: []
 categories: []
 date: '2016-09-01'
-lastmod: 2021-05-31T15:10:54+02:00
+lastmod: 2022-03-07T13:07:34-05:00
 featured: false
 draft: false
 
@@ -28,7 +28,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:25.768056Z'
+publishDate: '2022-03-07T18:07:34.411256Z'
 publication_types:
 - '7'
 abstract: Three-dimensional time series data from confocal fluorescence microscopes

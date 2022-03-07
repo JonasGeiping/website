@@ -14,11 +14,11 @@ authors:
 - Wojtek Czaja
 - Tom Goldstein
 tags:
-- '"Computer Science - Cryptography and Security"'
-- '"Computer Science - Machine Learning"'
+- Computer Science - Cryptography and Security
+- Computer Science - Machine Learning
 categories: []
 date: '2021-02-01'
-lastmod: 2021-05-31T15:10:54+02:00
+lastmod: 2022-03-07T13:07:32-05:00
 featured: false
 draft: false
 
@@ -36,7 +36,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:24.257206Z'
+publishDate: '2022-03-07T18:07:32.660334Z'
 publication_types:
 - '2'
 abstract: Large organizations such as social media companies continually release data,
@@ -50,4 +50,9 @@ abstract: Large organizations such as social media companies continually release
   that companies can protect their data in real time as they release it.We demonstrate
   the success of our approach onImageNet classification and on facial recognition.
 publication: '*arXiv:2103.02683 [cs]*'
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2103.02683
+- name: URL
+  url: http://arxiv.org/abs/2103.02683
 ---

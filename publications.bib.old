@@ -1,7 +1,7 @@
 
 @article{borgnia_dp-instahide_2021,
-  title = {{{DP-InstaHide}}: {{Provably Defusing Poisoning}} and {{Backdoor Attacks}} with {{Differentially Private Data Augmentations}}},
-  shorttitle = {{{DP-InstaHide}}},
+  title = {{{DP}}-{{InstaHide}}: Provably {{Defusing Poisoning}} and {{Backdoor Attacks}} with {{Differentially Private Data Augmentations}}},
+  shorttitle = {{{DP}}-{{InstaHide}}},
   author = {Borgnia, Eitan and Geiping, Jonas and Cherepanova, Valeriia and Fowl, Liam and Gupta, Arjun and Ghiasi, Amin and Huang, Furong and Goldblum, Micah and Goldstein, Tom},
   year = {2021},
   month = mar,
@@ -9,8 +9,6 @@
   eprint = {2103.02079},
   eprinttype = {arxiv},
   primaryclass = {cs},
-  url = {http://arxiv.org/abs/2103.02079},
-  urldate = {2021-03-04},
   abstract = {Data poisoning and backdoor attacks manipulate training data to induce security breaches in a victim model. These attacks can be provably deflected using differentially private (DP) training methods, although this comes with a sharp decrease in model performance. The InstaHide method has recently been proposed as an alternative to DP training that leverages supposed privacy properties of the mixup augmentation, although without rigorous guarantees. In this work, we show that strong data augmentations, such as mixup and random additive noise, nullify poison attacks while enduring only a small accuracy trade-off. To explain these finding, we propose a training method, DP-InstaHide, which combines the mixup regularizer with additive noise. A rigorous analysis of DP-InstaHide shows that mixup does indeed have privacy advantages, and that training with k-way mixup provably yields at least k times stronger DP guarantees than a naive DP mechanism. Because mixup (as opposed to noise) is beneficial to model performance, DP-InstaHide provides a mechanism for achieving stronger empirical performance against poisoning attacks than other known DP methods.},
   archiveprefix = {arXiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning}
@@ -30,7 +28,7 @@
 }
 
 @inproceedings{chiang_witchcraft_2020,
-  title = {Witchcraft: {{Efficient PGD Attacks}} with {{Random Step Size}}},
+  title = {Witchcraft: Efficient {{PGD Attacks}} with {{Random Step Size}}},
   shorttitle = {Witchcraft},
   booktitle = {{{ICASSP}} 2020 - 2020 {{IEEE International Conference}} on {{Acoustics}}, {{Speech}} and {{Signal Processing}} ({{ICASSP}})},
   author = {Chiang, Ping-Yeh and Geiping, Jonas and Goldblum, Micah and Goldstein, Tom and Ni, Renkun and Reich, Steven and Shafahi, Ali},
@@ -53,32 +51,13 @@
   eprint = {2106.10807},
   eprinttype = {arxiv},
   primaryclass = {cs},
-  url = {http://arxiv.org/abs/2106.10807},
-  urldate = {2021-09-14},
   abstract = {The adversarial machine learning literature is largely partitioned into evasion attacks on testing data and poisoning attacks on training data. In this work, we show that adversarial examples, originally intended for attacking pre-trained models, are even more effective for data poisoning than recent methods designed specifically for poisoning. Our findings indicate that adversarial examples, when assigned the original label of their natural base image, cannot be used to train a classifier for natural images. Furthermore, when adversarial examples are assigned their adversarial class label, they are useful for training. This suggests that adversarial examples contain useful semantic content, just with the ``wrong'' labels (according to a network, but not a human). Our method, adversarial poisoning, is substantially more effective than existing poisoning methods for secure dataset release, and we release a poisoned version of ImageNet, ImageNet-P, to encourage research into the strength of this form of data obfuscation.},
   archiveprefix = {arXiv},
   keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning}
 }
 
-@article{fowl_decepticons_2022,
-  title = {Decepticons: {{Corrupted Transformers Breach Privacy}} in {{Federated Learning}} for {{Language Models}}},
-  shorttitle = {Decepticons},
-  author = {Fowl, Liam and Geiping, Jonas and Reich, Steven and Wen, Yuxin and Czaja, Wojtek and Goldblum, Micah and Goldstein, Tom},
-  year = {2022},
-  month = jan,
-  journal = {arXiv:2201.12675 [cs]},
-  eprint = {2201.12675},
-  eprinttype = {arxiv},
-  primaryclass = {cs},
-  url = {http://arxiv.org/abs/2201.12675},
-  urldate = {2022-02-01},
-  abstract = {A central tenet of Federated learning (FL), which trains models without centralizing user data, is privacy. However, previous work has shown that the gradient updates used in FL can leak user information. While the most industrial uses of FL are for text applications (e.g. keystroke prediction), nearly all attacks on FL privacy have focused on simple image classifiers. We propose a novel attack that reveals private user text by deploying malicious parameter vectors, and which succeeds even with mini-batches, multiple users, and long sequences. Unlike previous attacks on FL, the attack exploits characteristics of both the Transformer architecture and the token embedding, separately extracting tokens and positional embeddings to retrieve high-fidelity text. This work suggests that FL on text, which has historically been resistant to privacy attacks, is far more vulnerable than previously thought.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Computation and Language,Computer Science - Cryptography and Security,Computer Science - Machine Learning}
-}
-
 @article{fowl_preventing_2021,
-  title = {Preventing {{Unauthorized Use}} of {{Proprietary Data}}: {{Poisoning}} for {{Secure Dataset Release}}},
+  title = {Preventing {{Unauthorized Use}} of {{Proprietary Data}}: Poisoning for {{Secure Dataset Release}}},
   shorttitle = {Preventing {{Unauthorized Use}} of {{Proprietary Data}}},
   author = {Fowl, Liam and Chiang, Ping-yeh and Goldblum, Micah and Geiping, Jonas and Bansal, Arpit and Czaja, Wojtek and Goldstein, Tom},
   year = {2021},
@@ -87,33 +66,13 @@
   eprint = {2103.02683},
   eprinttype = {arxiv},
   primaryclass = {cs},
-  url = {http://arxiv.org/abs/2103.02683},
-  urldate = {2021-03-05},
   abstract = {Large organizations such as social media companies continually release data, for example user images. At the same time, these organizations leverage their massive corpora of released data to train proprietary models that give them an edge over their competitors. These two behaviors can be in conflict as an organization wants to prevent competitors from using their own data to replicate the performance of their proprietary models. We solve this problem by developing a data poisoning method by which publicly released data can be minimally modified to prevent others from train-ing models on it. Moreover, our method can be used in an online fashion so that companies can protect their data in real time as they release it.We demonstrate the success of our approach onImageNet classification and on facial recognition.},
   archiveprefix = {arXiv},
   keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning}
 }
 
-@inproceedings{fowl_robbing_2021,
-  title = {Robbing the {{Fed}}: {{Directly Obtaining Private Data}} in {{Federated Learning}} with {{Modified Models}}},
-  shorttitle = {Robbing the {{Fed}}},
-  booktitle = {International {{Conference}} on {{Learning Representations}}},
-  author = {Fowl, Liam H. and Geiping, Jonas and Czaja, Wojciech and Goldblum, Micah and Goldstein, Tom},
-  year = {2021},
-  month = sep,
-  eprint = {2110.13057},
-  eprinttype = {arxiv},
-  url = {https://openreview.net/forum?id=fwzUgo0FM9v},
-  urldate = {2022-02-10},
-  abstract = {Federated learning has quickly gained popularity with its promises of increased user privacy and efficiency.  Previous works have shown that federated gradient updates contain information that can...},
-  archiveprefix = {arXiv},
-  copyright = {All rights reserved},
-  langid = {english},
-  keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning}
-}
-
 @article{gandikota_training_2021,
-  title = {Training or {{Architecture}}? {{How}} to {{Incorporate Invariance}} in {{Neural Networks}}},
+  title = {Training or {{Architecture}}? How to {{Incorporate Invariance}} in {{Neural Networks}}},
   shorttitle = {Training or {{Architecture}}?},
   author = {Gandikota, Kanchana Vaishnavi and Geiping, Jonas and L{\"a}hner, Zorah and Czapli{\'n}ski, Adam and Moeller, Michael},
   year = {2021},
@@ -122,8 +81,6 @@
   eprint = {2106.10044},
   eprinttype = {arxiv},
   primaryclass = {cs},
-  url = {http://arxiv.org/abs/2106.10044},
-  urldate = {2021-06-21},
   abstract = {Many applications require the robustness, or ideally the invariance, of a neural network to certain transformations of input data. Most commonly, this requirement is addressed by either augmenting the training data, using adversarial training, or defining network architectures that include the desired invariance automatically. Unfortunately, the latter often relies on the ability to enlist all possible transformations, which make such approaches largely infeasible for infinite sets of transformations, such as arbitrary rotations or scaling. In this work, we propose a method for provably invariant network architectures with respect to group actions by choosing one element from a (possibly continuous) orbit based on a fixed criterion. In a nutshell, we intend to 'undo' any possible transformation before feeding the data into the actual network. We analyze properties of such approaches, extend them to equivariant networks, and demonstrate their advantages in terms of robustness as well as computational efficiency in several numerical examples. In particular, we investigate the robustness with respect to rotations of images (which can possibly hold up to discretization artifacts only) as well as the provable rotational and scaling invariance of 3D point cloud classification.},
   archiveprefix = {arXiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition},
@@ -132,18 +89,16 @@
 
 @phdthesis{geiping_comparison_2014,
   type = {Bachelor {{Thesis}}},
-  title = {Comparison of {{Topology-preserving Segmentation Methods}} and {{Application}} to {{Mitotic Cell Tracking}}},
+  title = {Comparison of {{Topology}}-Preserving {{Segmentation Methods}} and {{Application}} to {{Mitotic Cell Tracking}}},
   author = {Geiping, Jonas Alexander},
   year = {2014},
   month = sep,
   address = {{M\"unster}},
-  url = {http://wwwmath.uni-muenster.de:8000/num/Arbeitsgruppen/ag_burger/teaching/Bachelor/BA\%20Geiping.pdf},
-  urldate = {2017-01-02},
   school = {Westf\"alischen Wilhelms-Universit\"at M\"unster}
 }
 
 @article{geiping_composite_2018,
-  title = {Composite {{Optimization}} by {{Nonconvex Majorization-Minimization}}},
+  title = {Composite {{Optimization}} by {{Nonconvex Majorization}}-{{Minimization}}},
   author = {Geiping, Jonas and Moeller, Michael},
   year = {2018},
   month = jan,
@@ -164,8 +119,6 @@
   eprint = {2108.05647},
   eprinttype = {arxiv},
   primaryclass = {cs},
-  url = {http://arxiv.org/abs/2108.05647},
-  urldate = {2021-09-14},
   abstract = {Differentiable architecture search (DARTS) is a widely researched tool for neural architecture search, due to its promising results for image classification. The main benefit of DARTS is the effectiveness achieved through the weight-sharing one-shot paradigm, which allows efficient architecture search. In this work, we investigate DARTS in a systematic case study of inverse problems, which allows us to analyze these potential benefits in a controlled manner. Although we demonstrate that the success of DARTS can be extended from image classification to reconstruction, our experiments yield three fundamental difficulties in the evaluation of DARTS-based methods: First, the results show a large variance in all test cases. Second, the final performance is highly dependent on the hyperparameters of the optimizer. And third, the performance of the weight-sharing architecture used during training does not reflect the final performance of the found architecture well. Thus, we conclude the necessity to 1) report the results of any DARTS-based methods from several runs along with its underlying performance statistics, 2) show the correlation of the training and final architecture performance, and 3) carefully consider if the computational efficiency of DARTS outweighs the costs of hyperparameter optimization and multiple runs.},
   archiveprefix = {arXiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
@@ -178,15 +131,14 @@
   year = {2020},
   month = sep,
   address = {{Virtual}},
-  url = {https://www.bmvc2020-conference.com/conference/papers/paper_0694.html},
-  urldate = {2020-09-19},
   abstract = {Matching and partitioning problems are fundamentals of computer vision applications with examples in multilabel segmentation, stereo estimation and optical-flow computation. These tasks can be posed as non-convex energy minimization problems and solved near-globally optimal by recent convex lifting approaches. Yet, applying these techniques comes with a significant computational effort, reducing their feasibility in practical applications. We discuss spatial discretization of continuous partitioning problems into a graph structure, generalizing discretization onto a Cartesian grid. This setup allows us to faithfully work on super-pixel graphs constructed by SLIC or Cut-Pursuit, massively decreasing the computational effort for lifted partitioning problems compared to a Cartesian grid, while optimal energy values remain similar: The global matching is still solved near-globally optimal. We discuss this methodology in detail and show examples in multi-label segmentation by minimal partitions and stereo estimation, where we demonstrate that the proposed graph discretization can reduce runtime as well as memory consumption of convex relaxations of matching problems by up to a factor of 10.},
   copyright = {All rights reserved},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Mathematics - Optimization and Control}
 }
 
-@mastersthesis{geiping_image_2016,
-  title = {Image {{Analysis}} of {{Neural Tissue Development}}: {{Variational Methods}} for {{Segmentation}} and {{3D-Reconstruction}} from Large Pinhole Confocal Fluorescence Microscopy},
+@phdthesis{geiping_image_2016,
+  type = {Master {{Thesis}}},
+  title = {Image {{Analysis}} of {{Neural Tissue Development}}: Variational {{Methods}} for {{Segmentation}} and {{3D}}-{{Reconstruction}} from Large Pinhole Confocal Fluorescence Microscopy},
   author = {Geiping, Jonas Alexander},
   year = {2016},
   month = sep,
@@ -203,8 +155,6 @@
   year = {2020},
   month = dec,
   volume = {33},
-  url = {https://proceedings.neurips.cc//paper_files/paper/2020/hash/c4ede56bbd98819ae6112b20ac6bf145-Abstract.html},
-  urldate = {2020-12-07},
   langid = {english},
   annotation = {ZSCC: 0000016}
 }
@@ -215,8 +165,6 @@
   author = {Geiping, Jonas},
   year = {2021},
   address = {{10.25819/ubsi/9908}},
-  url = {https://dspace.ub.uni-siegen.de/handle/ubsi/1897},
-  urldate = {2021-05-10},
   abstract = {This thesis presents research into multiple optimization topics in computer vision with a conceptual focus on composite optimization problems such as bilevel optimization. The optimal graph-based discretization of variational problems in minimal partitions, the theoretical analysis of nonconvex composite optimization by nonconvex majorizers, the bilevel problem of learning energy models by nonconvex majorizers, and the machine learning security applications of bilevel optimization in privacy analysis of federated learning and dataset poisoning of general image classification are featured in this cumulative work.},
   langid = {english},
   school = {University of Siegen},
@@ -238,36 +186,30 @@
 }
 
 @inproceedings{geiping_parametric_2019-2,
-  title = {Parametric {{Majorization}} for {{Data-Driven Energy Minimization Methods}}},
+  title = {Parametric {{Majorization}} for {{Data}}-{{Driven Energy Minimization Methods}}},
   booktitle = {Proceedings of the {{IEEE International Conference}} on {{Computer Vision}}},
   author = {Geiping, Jonas and Moeller, Michael},
   year = {2019},
   pages = {10262--10273},
-  url = {http://openaccess.thecvf.com/content_ICCV_2019/html/Geiping_Parametric_Majorization_for_Data-Driven_Energy_Minimization_Methods_ICCV_2019_paper.html},
-  urldate = {2019-11-01},
   abstract = {Energy minimization methods are a classical tool in a multitude of computer vision applications. While they are interpretable and well-studied, their regularity assumptions are difficult to design by hand. Deep learning techniques on the other hand are purely data-driven, often provide excellent results, but are very difficult to constrain to predefined physical or safety-critical models. A possible combination between the two approaches is to design a parametric en- ergy and train the free parameters in such a way that minimizers of the energy correspond to desired solution on a set of training examples. Unfortunately, such formulations typically lead to bi-level optimization problems, on which common optimization algorithms are difficult to scale to modern requirements in data processing and efficiency. In this work, we present a new strategy to optimize these bi-level problems. We investigate surrogate single-level problems that majorize the target problems and can be implemented with existing tools, leading to efficient algorithms without collapse of the energy function. This framework of strategies enables new avenues to the training of parameterized energy minimization models from large data.},
   copyright = {All rights reserved}
 }
 
-@inproceedings{geiping_stochastic_2021,
+@article{geiping_stochastic_2021,
   title = {Stochastic {{Training}} Is {{Not Necessary}} for {{Generalization}}},
-  booktitle = {International {{Conference}} on {{Learning Representations}}},
-  author = {Geiping, Jonas and Goldblum, Micah and Pope, Phil and Moeller, Michael and Goldstein, Tom},
+  author = {Geiping, Jonas and Goldblum, Micah and Pope, Phillip E. and Moeller, Michael and Goldstein, Tom},
   year = {2021},
   month = sep,
+  journal = {arXiv:2109.14119 null},
   eprint = {2109.14119},
   eprinttype = {arxiv},
-  url = {https://openreview.net/forum?id=ZBESeIUB5k},
-  urldate = {2022-03-07},
-  abstract = {It is widely believed that the implicit regularization of SGD is fundamental to the impressive generalization behavior we observe in neural networks.  In this work, we demonstrate that...},
+  abstract = {It is widely believed that the implicit regularization of stochastic gradient descent (SGD) is fundamental to the impressive generalization behavior we observe in neural networks. In this work, we demonstrate that non-stochastic full-batch training can achieve strong performance on CIFAR-10 that is on-par with SGD, using modern architectures in settings with and without data augmentation. To this end, we utilize modified hyperparameters and show that the implicit regularization of SGD can be completely replaced with explicit regularization. This strongly suggests that theories that rely heavily on properties of stochastic sampling to explain generalization are incomplete, as strong generalization behavior is still observed in the absence of stochastic sampling. Fundamentally, deep learning can succeed without stochasticity. Our observations further indicate that the perceived difficulty of full-batch training is largely the result of its optimization properties and the disproportionate time and effort spent by the ML community tuning optimizers and hyperparameters for small-batch training.},
   archiveprefix = {arXiv},
-  copyright = {All rights reserved},
-  langid = {english},
   keywords = {Computer Science - Machine Learning,Mathematics - Optimization and Control}
 }
 
 @article{geiping_what_2021,
-  title = {What {{Doesn}}'t {{Kill You Makes You Robust}}(Er): {{Adversarial Training}} against {{Poisons}} and {{Backdoors}}},
+  title = {What {{Doesn}}'t {{Kill You Makes You Robust}}(Er): Adversarial {{Training}} against {{Poisons}} and {{Backdoors}}},
   shorttitle = {What {{Doesn}}'t {{Kill You Makes You Robust}}(Er)},
   author = {Geiping, Jonas and Fowl, Liam and Somepalli, Gowthami and Goldblum, Micah and Moeller, Michael and Goldstein, Tom},
   year = {2021},
@@ -276,8 +218,6 @@
   eprint = {2102.13624},
   eprinttype = {arxiv},
   primaryclass = {cs},
-  url = {http://arxiv.org/abs/2102.13624},
-  urldate = {2021-03-01},
   abstract = {Data poisoning is a threat model in which a malicious actor tampers with training data to manipulate outcomes at inference time. A variety of defenses against this threat model have been proposed, but each suffers from at least one of the following flaws: they are easily overcome by adaptive attacks, they severely reduce testing performance, or they cannot generalize to diverse data poisoning threat models. Adversarial training, and its variants, is currently considered the only empirically strong defense against (inference-time) adversarial attacks. In this work, we extend the adversarial training framework to instead defend against (training-time) poisoning and backdoor attacks. Our method desensitizes networks to the effects of poisoning by creating poisons during training and injecting them into training batches. We show that this defense withstands adaptive attacks, generalizes to diverse threat models, and incurs a better performance trade-off than previous defenses.},
   archiveprefix = {arXiv},
   copyright = {All rights reserved},
@@ -285,27 +225,23 @@
 }
 
 @inproceedings{geiping_witches_2021,
-  title = {Witches' {{Brew}}: {{Industrial Scale Data Poisoning}} via {{Gradient Matching}}},
+  title = {Witches' {{Brew}}: Industrial {{Scale Data Poisoning}} via {{Gradient Matching}}},
   shorttitle = {Witches' {{Brew}}},
   booktitle = {International {{Conference}} on {{Learning Representations}}},
   author = {Geiping, Jonas and Fowl, Liam H. and Huang, W. Ronny and Czaja, Wojciech and Taylor, Gavin and Moeller, Michael and Goldstein, Tom},
   year = {2021},
   month = apr,
-  url = {https://openreview.net/forum?id=01olnfLIbD},
-  urldate = {2021-01-15},
   abstract = {Data Poisoning attacks modify training data to maliciously control a model trained on such data. Previous poisoning attacks against deep neural networks have been limited in scope and success...},
   langid = {english}
 }
 
 @inproceedings{goldblum_truth_2020,
-  title = {Truth or Backpropaganda? {{An}} Empirical Investigation of Deep Learning Theory},
+  title = {Truth or Backpropaganda? An Empirical Investigation of Deep Learning Theory},
   shorttitle = {Truth or Backpropaganda?},
   booktitle = {Eighth {{International Conference}} on {{Learning Representations}} ({{ICLR}} 2020, {{Oral Presentation}})},
   author = {Goldblum, Micah and Geiping, Jonas and Schwarzschild, Avi and Moeller, Michael and Goldstein, Tom},
   year = {2020},
   month = apr,
-  url = {https://iclr.cc/virtual_2020/poster_HyxyIgHFvr.html},
-  urldate = {2020-09-19},
   abstract = {We empirically evaluate common assumptions about neural networks that are widely held by practitioners and theorists alike. In this work, we: (1) prove the widespread existence of suboptimal local minima in the loss landscape of neural networks, and we use our theory to find examples; (2) show that small-norm parameters are not optimal for generalization; (3) demonstrate that ResNets do not conform to wide-network theories, such as the neural tangent kernel, and that the interaction between skip connections and batch normalization plays a role; (4) find that rank does not correlate with generalization or robustness in a practical setting.},
   copyright = {All rights reserved},
   langid = {english},
@@ -326,7 +262,7 @@
 }
 
 @inproceedings{huang_metapoison_2020-1,
-  title = {{{MetaPoison}}: {{Practical General-purpose Clean-label Data Poisoning}}},
+  title = {{{MetaPoison}}: Practical {{General}}-Purpose {{Clean}}-Label {{Data Poisoning}}},
   shorttitle = {{{MetaPoison}}},
   booktitle = {Advances in {{Neural Information Processing Systems}}},
   author = {Huang, W. Ronny and Geiping, Jonas and Fowl, Liam and Taylor, Gavin and Goldstein, Tom},
@@ -334,27 +270,8 @@
   month = dec,
   volume = {33},
   address = {{Vancouver, Canada}},
-  url = {https://proceedings.neurips.cc//paper_files/paper/2020/hash/8ce6fc704072e351679ac97d4a985574-Abstract.html},
-  urldate = {2020-12-07},
   langid = {english},
   annotation = {ZSCC: 0000007}
-}
-
-@article{wen_fishing_2022,
-  title = {Fishing for {{User Data}} in {{Large-Batch Federated Learning}} via {{Gradient Magnification}}},
-  author = {Wen, Yuxin and Geiping, Jonas and Fowl, Liam and Goldblum, Micah and Goldstein, Tom},
-  year = {2022},
-  month = feb,
-  journal = {arXiv:2202.00580 [cs]},
-  eprint = {2202.00580},
-  eprinttype = {arxiv},
-  primaryclass = {cs},
-  url = {http://arxiv.org/abs/2202.00580},
-  urldate = {2022-02-02},
-  abstract = {Federated learning (FL) has rapidly risen in popularity due to its promise of privacy and efficiency. Previous works have exposed privacy vulnerabilities in the FL pipeline by recovering user data from gradient updates. However, existing attacks fail to address realistic settings because they either 1) require a `toy' settings with very small batch sizes, or 2) require unrealistic and conspicuous architecture modifications. We introduce a new strategy that dramatically elevates existing attacks to operate on batches of arbitrarily large size, and without architectural modifications. Our model-agnostic strategy only requires modifications to the model parameters sent to the user, which is a realistic threat model in many scenarios. We demonstrate the strategy in challenging large-scale settings, obtaining high-fidelity data extraction in both cross-device and cross-silo federated learning.},
-  archiveprefix = {arXiv},
-  copyright = {All rights reserved},
-  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning}
 }
 
 

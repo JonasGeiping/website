@@ -16,12 +16,12 @@ authors:
 - Micah Goldblum
 - Tom Goldstein
 tags:
-- '"Computer Science - Computer Vision and Pattern Recognition"'
-- '"Computer Science - Cryptography and Security"'
-- '"Computer Science - Machine Learning"'
+- Computer Science - Computer Vision and Pattern Recognition
+- Computer Science - Cryptography and Security
+- Computer Science - Machine Learning
 categories: []
 date: '2021-03-01'
-lastmod: 2021-05-31T15:10:53+02:00
+lastmod: 2022-03-07T13:07:31-05:00
 featured: false
 draft: false
 
@@ -39,7 +39,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:23.203519Z'
+publishDate: '2022-03-07T18:07:31.395074Z'
 publication_types:
 - '2'
 abstract: Data poisoning and backdoor attacks manipulate training data to induce security
@@ -57,4 +57,9 @@ abstract: Data poisoning and backdoor attacks manipulate training data to induce
   model performance, DP-InstaHide provides a mechanism for achieving stronger empirical
   performance against poisoning attacks than other known DP methods.
 publication: '*arXiv:2103.02079 [cs]*'
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2103.02079
+- name: URL
+  url: http://arxiv.org/abs/2103.02079
 ---

@@ -10,11 +10,11 @@ authors:
 - Margret Keuper
 - Michael Moeller
 tags:
-- '"Computer Science - Computer Vision and Pattern Recognition"'
-- '"Computer Science - Machine Learning"'
+- Computer Science - Computer Vision and Pattern Recognition
+- Computer Science - Machine Learning
 categories: []
 date: '2021-08-01'
-lastmod: 2021-10-11T18:01:25-04:00
+lastmod: 2022-03-07T13:07:34-05:00
 featured: false
 draft: false
 
@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:25.233120Z'
+publishDate: '2022-03-07T18:07:33.904214Z'
 publication_types:
 - '2'
 abstract: 'Differentiable architecture search (DARTS) is a widely researched tool
@@ -53,4 +53,9 @@ abstract: 'Differentiable architecture search (DARTS) is a widely researched too
   efficiency of DARTS outweighs the costs of hyperparameter optimization and multiple
   runs.'
 publication: '*arXiv:2108.05647 [cs]*'
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2108.05647
+- name: URL
+  url: http://arxiv.org/abs/2108.05647
 ---

@@ -9,28 +9,28 @@ authors:
 - Jonas Geiping
 - Andreas Kolb
 tags:
-- '"constant rigid motion"'
-- '"ill-conditioned problem"'
-- '"image colour analysis"'
-- '"image segmentation"'
-- '"image sequences"'
-- '"implicit motion segmentation estimation approach"'
-- '"joint energy minimization problem"'
-- '"L0 rigid motion regularization"'
-- '"minimisation"'
-- '"motion estimation"'
-- '"observed scene"'
-- '"piecewise rigid motion"'
-- '"piecewise rigid scene flow techniques"'
-- '"proximal primal-dual algorithm"'
-- '"RGB-D images"'
-- '"rotational motion parts"'
-- '"scene flow estimation approach"'
-- '"translational motion parts"'
-- '"variational approach"'
+- constant rigid motion
+- ill-conditioned problem
+- image colour analysis
+- image segmentation
+- image sequences
+- implicit motion segmentation estimation approach
+- joint energy minimization problem
+- L0 rigid motion regularization
+- minimisation
+- motion estimation
+- observed scene
+- piecewise rigid motion
+- piecewise rigid scene flow techniques
+- proximal primal-dual algorithm
+- RGB-D images
+- rotational motion parts
+- scene flow estimation approach
+- translational motion parts
+- variational approach
 categories: []
 date: '2019-11-01'
-lastmod: 2021-05-31T15:10:55+02:00
+lastmod: 2022-03-07T13:07:36-05:00
 featured: false
 draft: false
 
@@ -48,7 +48,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:28.072444Z'
+publishDate: '2022-03-07T18:07:36.651585Z'
 publication_types:
 - '1'
 abstract: In this paper, we introduce a novel variational approach to estimate the

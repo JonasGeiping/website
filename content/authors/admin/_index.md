@@ -21,10 +21,11 @@ organizations:
 bio: I conduct research in topics on the intersection of mathematical optimization and machine learning with implications for security and privacy.
 
 interests:
-- Mathematical Optimization
-- Machine Learning (Mostly Deep Learning)
-- Computer Vision
 - Security and Privacy
+- Optimization in Machine Learning (Mostly Deep Learning)
+- Mathematical Optimization
+- Investigations into Energy-based models
+
 
 education:
   courses:
@@ -52,6 +53,9 @@ social:
 - icon: github
   icon_pack: fab
   link: "https://github.com/jonasgeiping"
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/jonasgeiping
 # - icon: linkedin-in
 #  icon_pack: fab
 #  link: "https://de.linkedin.com/in/jonas-geiping-9684441b5"

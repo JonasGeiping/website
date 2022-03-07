@@ -13,28 +13,28 @@ authors:
 - Steven Reich
 - Ali Shafahi
 tags:
-- '"Adversarial"'
-- '"adversarial attacks"'
-- '"Attack"'
-- '"CIFAR"'
-- '"classical PGD attack"'
-- '"CNN"'
-- '"gradient methods"'
-- '"iterative FGSM-based methods"'
-- '"iterative methods"'
-- '"learning (artificial intelligence)"'
-- '"neural nets"'
-- '"neural networks"'
-- '"PGD"'
-- '"PGD attacks"'
-- '"projected gradient descent"'
-- '"random step size"'
-- '"stochastic processes"'
-- '"wide iterative stochastic crafting"'
-- '"witchcraft"'
+- Adversarial
+- adversarial attacks
+- Attack
+- CIFAR
+- classical PGD attack
+- CNN
+- gradient methods
+- iterative FGSM-based methods
+- iterative methods
+- learning (artificial intelligence)
+- neural nets
+- neural networks
+- PGD
+- PGD attacks
+- projected gradient descent
+- random step size
+- stochastic processes
+- wide iterative stochastic crafting
+- witchcraft
 categories: []
 date: '2020-05-01'
-lastmod: 2021-05-31T15:10:53+02:00
+lastmod: 2022-03-07T13:07:32-05:00
 featured: false
 draft: false
 
@@ -52,7 +52,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:23.712598Z'
+publishDate: '2022-03-07T18:07:31.895287Z'
 publication_types:
 - '1'
 abstract: State-of-the-art adversarial attacks on neural networks use expensive iterative

@@ -12,11 +12,11 @@ authors:
 - Wojtek Czaja
 - Tom Goldstein
 tags:
-- '"Computer Science - Cryptography and Security"'
-- '"Computer Science - Machine Learning"'
+- Computer Science - Cryptography and Security
+- Computer Science - Machine Learning
 categories: []
 date: '2021-06-01'
-lastmod: 2021-10-11T18:01:24-04:00
+lastmod: 2022-03-07T13:07:32-05:00
 featured: false
 draft: false
 
@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-11T22:01:23.983016Z'
+publishDate: '2022-03-07T18:07:32.149148Z'
 publication_types:
 - '2'
 abstract: The adversarial machine learning literature is largely partitioned into
@@ -51,4 +51,9 @@ abstract: The adversarial machine learning literature is largely partitioned int
   release, and we release a poisoned version of ImageNet, ImageNet-P, to encourage
   research into the strength of this form of data obfuscation.
 publication: '*arXiv:2106.10807 [cs]*'
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2106.10807
+- name: URL
+  url: http://arxiv.org/abs/2106.10807
 ---
