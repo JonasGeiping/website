@@ -78,6 +78,6 @@ email: ""
 ---
 
 
-Hello, I'm Jonas. I conduct research in computer science as PhD student at the University of Siegen. My background is in Mathematics, more specifically in mathematical optimization and I am interested in research that intersects current deep learning and mathematical optimization in general, but also in the implications of optimization in machine learning for the design of secure and private ML systems.
+Hello, I'm Jonas. I work in computer science as postdoctoral researcher at the University of Maryland, College Park. My background is in Mathematics, more specifically in mathematical optimization and I am interested in research that intersects current deep learning and mathematical optimization in general, but also in the implications of optimization in machine learning for the design of secure and private ML systems. As such I've done work ranging from understanding the impact of optimization on fundamental phenomena behind generalization in deep learning, to practical optimization strategies that show vulnerabilities in user privacy for federated learning.
 
 This webpage is likely not entirely up to date. Google/Semantic scholar and arxiv will have the latest updates.
